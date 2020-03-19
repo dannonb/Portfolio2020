@@ -14,19 +14,19 @@ header {
     top: 0;
     width: 100%;
     height: 10vh;
-    background-color: #7367F2;
+    background-color: #246CA2;
     
     
 }
 
 header img {
-    max-width: 50px;
+    max-width: 40px;
     transition: .5s ease;
 }
 
 header img:hover {
     
-    transform: scale(1.4);
+    transform: scale(1.2);
     cursor: pointer;
     
 }
@@ -53,6 +53,47 @@ nav h1 {
     color: white;
 }
 
+#business-card {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+#card-content {
+    margin: 15% auto;
+    background-color: #fefefe;
+    width: 50%;
+    border: 1px solid black;
+    padding: 15px;
+    animation-name: biz;
+    animation-duration: .5s;
+    position: relative;
+    box-shadow: 2px 2px 2px black;
+}
+
+@keyframes biz {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+.close {
+    float: right;
+    color: #aaa;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 #start {
     display: flex;
@@ -68,7 +109,7 @@ nav h1 {
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    background-color: #7367F2;
+    background-color: #246CA2;
     border-radius: 4px;
     border: 1px solid black;
     width: 25%;
@@ -92,5 +133,6 @@ nav h1 {
 @media (max-width: 600px) {
     #start {
         flex-direction: column;
+        justify-content: space-evenly;
     }
 }
