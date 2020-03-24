@@ -16,7 +16,6 @@ header {
     height: 10vh;
     background-color: #246CA2;
     
-    
 }
 
 header img {
@@ -67,14 +66,38 @@ nav h1 {
 
 #card-content {
     margin: 15% auto;
-    background-color: #fefefe;
+    background-color: whitesmoke;
     width: 50%;
-    border: 1px solid black;
     padding: 15px;
     animation-name: biz;
     animation-duration: .5s;
     position: relative;
     box-shadow: 2px 2px 2px black;
+    font-family: 'Merriweather', serif;
+    
+    
+}
+
+#card-content p, #card-name {
+    text-align: center;
+    margin: 4%;
+    
+    
+}
+
+#card-content a {
+    text-decoration: none;
+    
+}
+
+#card-underline {
+    border-bottom: 2px dotted #246CA2;
+}
+
+#card-name {
+    font-size: 3em;
+    font-family: 'Great Vibes', cursive;
+
 }
 
 @keyframes biz {
@@ -134,5 +157,9 @@ nav h1 {
     #start {
         flex-direction: column;
         justify-content: space-evenly;
+    }
+
+    #card-content {
+        width: 80%;
     }
 }
