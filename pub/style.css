@@ -159,6 +159,10 @@ nav h1 {
         justify-content: space-evenly;
     }
 
+    #start button {
+        width: 20%;
+    }
+
     #card-content {
         width: 80%;
     }
