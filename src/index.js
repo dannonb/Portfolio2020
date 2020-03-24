@@ -6,8 +6,6 @@ const app = express()
 const pubDir = path.join(__dirname, '../pub')
 app.use(express.static(pubDir))
 
-app.get('/', (req, res) => {
-    res.send('hi')
-})
+
 
 app.listen(port)
