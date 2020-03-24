@@ -165,6 +165,7 @@ nav h1 {
 
     #card-content {
         width: 80%;
+        font-size: .5em;
     }
 }
 
@@ -172,5 +173,6 @@ nav h1 {
 @media (min-width: 1000px) {
     #card-content {
         width: 25%;
+        
     }
 }
