@@ -3,11 +3,15 @@ const game = {}
 const web = {}
 
 document.querySelector('#gamebtn').addEventListener('click', () => {
-
+    document.getElementById('start').remove()
+    document.getElementById('gameArea').style.display = 'flex'
+    document.querySelector('header').style.backgroundColor = 'paleturquoise'
 })
 
 document.querySelector('#webbtn').addEventListener('click', () => {
-
+    document.getElementById('start').remove()
+    document.getElementById('webArea').style.display = 'flex'
+    document.querySelector('header').style.backgroundColor = 'palevioletred'
 })
 
 document.querySelector('#contact').addEventListener('click', () => {
