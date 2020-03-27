@@ -28,12 +28,12 @@ document.querySelector('.close').addEventListener('click', () => {
     bizCard.style.display = "none"
 })
 
-document.querySelector('#web-home').addEventListener('click', () => {
+document.querySelector('#web-home-btn').addEventListener('click', () => {
     location.reload()
     
 })
 
-document.querySelector('#game-home').addEventListener('click', () => {
+document.querySelector('#game-home-btn').addEventListener('click', () => {
     location.reload()
     
 })
