@@ -209,12 +209,13 @@ footer {
 #web-lists {
     display: flex;
     flex-direction: row;
+    
 }
 
-.web-list {
+.web-list ul{
     font-size: small;
     margin: 15px;
-    list-style: none;
+    list-style-type: none;
 }
 
 
