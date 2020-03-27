@@ -320,14 +320,10 @@ footer {
 
     .project {
         font-size: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        
     }
 
-    #web-examples {
-        flex-direction: column;
-        justify-content: space-around;
-    }
+    
 
     
 }
