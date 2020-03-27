@@ -198,6 +198,7 @@ footer {
     line-height: 2em;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
 }
 
 #web-about p {
