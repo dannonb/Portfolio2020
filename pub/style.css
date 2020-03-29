@@ -211,7 +211,7 @@ footer {
     display: flex;
     flex-direction: column;
     line-height: 2em;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     
@@ -225,6 +225,7 @@ footer {
 #web-lists {
     display: flex;
     flex-direction: row;
+    width: 100%;
     
 }
 
@@ -232,6 +233,10 @@ footer {
     font-size: small;
     margin: 15px;
     list-style-type: none;
+}
+
+.web-list {
+    margin: 15px;
 }
 
 #web-examples {
