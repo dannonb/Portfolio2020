@@ -284,13 +284,16 @@ footer {
 
 
 #web-home-btn, #game-home-btn {
-    width: 15%;
+    width: 35px;
     height: 20px;
     color: whitesmoke;
     background-color: black;
     border: none;
     border-radius: 2px 2px;
     transition:.5s ease;
+    position: fixed;
+    top: 10%;
+    right:25px;
 }
 
 #game-home-btn:hover,#game-home-btn:focus,#web-home-btn:hover, #web-home-btn:focus
