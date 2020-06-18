@@ -76,6 +76,11 @@ footer {
     align-items: center;
 }
 
+footer img {
+    width: 25px;
+    height: 25px;
+}
+
 #business-card {
     display: none;
     width: 100%;
@@ -154,7 +159,8 @@ footer {
     background-image: url(./img/backgrounds/blacktreebg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 350px;
+    background-size: 600px;
+    
 }
 
 #start button {
@@ -326,6 +332,7 @@ footer {
     #start {
         flex-direction: column;
         justify-content: space-evenly;
+        background-size: 350px;
     }
 
     #start button {
