@@ -197,6 +197,10 @@ footer img {
     align-items: center;
 }
 
+#gameArea img {
+    width: 200px;
+}
+
 #game-about {
     display: flex;
     flex-direction: column;
