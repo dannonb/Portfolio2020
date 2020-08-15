@@ -337,9 +337,9 @@ footer img {
 
 @media (max-width: 700px) {
     #start {
-        flex-direction: column;
+        
         justify-content: space-evenly;
-        background-size: 350px;
+        background-size: 300px;
     }
 
     #start button {
