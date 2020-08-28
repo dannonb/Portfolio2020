@@ -296,6 +296,12 @@ footer img {
     background-repeat: no-repeat;
 }
 
+#fq {
+    background-image: url('./img/project-icons/fqicon.png');
+    background-size: 35px;
+    background-repeat: no-repeat;
+}
+
 
 
 
