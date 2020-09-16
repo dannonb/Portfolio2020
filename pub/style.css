@@ -341,7 +341,7 @@ footer img {
 }
 
 
-@media (max-width: 900px) and (min-width: 701px) {
+@media (max-width: 1199px) {
     #start {
         
         justify-content: space-evenly;
@@ -388,38 +388,14 @@ footer img {
 
 
 
-@media (max-width: 700px) {
-    #start {
-        
-        justify-content: space-evenly;
-        background-size: 300px;
-    }
 
-    #start button {
-        width: 20%;
-        font-size: .7em;
-    }
-
-    #card-content {
-        width: 80%;
-        font-size: .5em;
-    }
-
-    #web-lists {
-        flex-direction: column;
-    }
-
-    .project {
-        font-size: 10px;
-        
-    }
 
     
 
     
 
     
-}
+
 
 
 @media (min-width: 1200px) {
