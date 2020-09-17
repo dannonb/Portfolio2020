@@ -377,6 +377,8 @@ footer img {
 
     #start {
         background-size: 200px;
+        height: 60vh;
+        padding-bottom: 25px;
     }
 
     #web-examples {
@@ -385,6 +387,13 @@ footer img {
 
     .project {
         height: 60%;
+    }
+
+    #name-header {
+        font-size: 20px;
+        padding-top: 5%;
+        padding-bottom: 0;
+        
     }
 
     
