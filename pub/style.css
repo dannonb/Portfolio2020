@@ -286,7 +286,7 @@ footer {
 
 
 
-@media (max-width: 811px) {
+@media (max-width: 900px) {
     nav {
         flex-direction: column;
     }
@@ -301,6 +301,10 @@ footer {
 
    h2 {
        font-size: smaller;
+   }
+
+   #main {
+    margin-bottom: 60vh;
    }
    
 }
