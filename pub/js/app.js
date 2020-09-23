@@ -3,6 +3,7 @@ const about = document.querySelector('#about-me')
 const projects = document.querySelector('#projects')
 const certs = document.querySelector('#certs')
 const main = document.querySelector('#main')
+const footdiv = document.querySelector('#tr-footer')
 
 // getting start div and setting up welcome message
 const start = document.querySelector('#start')
@@ -65,6 +66,7 @@ const displayAbout = () => {
     
     start.remove()
     main.style.display = 'flex'
+    footdiv.style.display = 'block'
     main.querySelectorAll('section').forEach((element) => {
         element.style.display = 'none'
     })
@@ -75,6 +77,7 @@ const displayProjects = () => {
     
     start.remove()
     main.style.display = 'flex'
+    footdiv.style.display = 'block'
     main.querySelectorAll('section').forEach((element) => {
         element.style.display = 'none'
     })
@@ -85,6 +88,7 @@ const displayCerts = () => {
     
     start.remove()
     main.style.display = 'flex'
+    footdiv.style.display = 'block'
     main.querySelectorAll('section').forEach((element) => {
         element.style.display = 'none'
     })
