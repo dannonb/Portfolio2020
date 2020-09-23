@@ -346,6 +346,16 @@ footer {
 }
 
 
+@media (min-width: 1200px) {
+    .btn {
+        width: 20%;
+    }
+    #msg {
+        width: 50%;
+    }
+}
+
+
 
 
 
