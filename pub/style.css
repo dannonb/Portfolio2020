@@ -313,6 +313,14 @@ footer {
     
    }
 
+   #about-me {
+       margin-bottom: 1000px;
+   }
+
+   #projects {
+       margin-bottom: 1000px;
+   }
+
    footer {
        margin-top: 150px;
    }
