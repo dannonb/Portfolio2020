@@ -122,6 +122,7 @@ footer {
     height: 85vh;
     padding-top: 5vh;
     margin: 0 auto;
+    margin-bottom: 5vh;
     display: flex;
     flex-direction: column;
     background-image: url('./img/backgrounds/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg');
