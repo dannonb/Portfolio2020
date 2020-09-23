@@ -318,6 +318,9 @@ footer {
        margin-bottom: 300px;
    }
 
+   .btn {
+       margin: 7px auto;
+   }
 
    
 }
