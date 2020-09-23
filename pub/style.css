@@ -206,6 +206,7 @@ footer {
 
 
 #projects {
+    width: 100%;
     height: auto;
     border: 2px solid black;
     display: none;
@@ -308,7 +309,7 @@ footer {
    }
 
    #main {
-    margin-bottom: 60vh;
+    margin-bottom: 1000px;
     
    }
 
