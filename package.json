@@ -1,14 +1,14 @@
 {
   "name": "bigham-resume-2020",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web Development Portfolio of Dannon Bigham",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dannon Bigham",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
