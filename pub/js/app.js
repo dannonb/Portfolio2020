@@ -35,17 +35,17 @@ const startmsg = () => {
         aboutbtn.style.transition = 'all 1s ease'
         aboutbtn.style.opacity = '1'
         
-    }, 10000)
+    }, 7000)
     setTimeout(() => {
         projectbtn.style.transition = 'all 1s ease'
         projectbtn.style.opacity = '1'
         
-    }, 10500)
+    }, 7500)
     setTimeout(() => {
         certsbtn.style.transition = 'all 1s ease'
         certsbtn.style.opacity = '1'
         
-    }, 11000)
+    }, 8000)
 
 
 }
@@ -64,6 +64,7 @@ window.addEventListener('load', () => {
 const displayAbout = () => {
     
     start.remove()
+    main.style.display = 'flex'
     main.querySelectorAll('section').forEach((element) => {
         element.style.display = 'none'
     })
@@ -73,6 +74,7 @@ const displayAbout = () => {
 const displayProjects = () => {
     
     start.remove()
+    main.style.display = 'flex'
     main.querySelectorAll('section').forEach((element) => {
         element.style.display = 'none'
     })
@@ -82,6 +84,7 @@ const displayProjects = () => {
 const displayCerts = () => {
     
     start.remove()
+    main.style.display = 'flex'
     main.querySelectorAll('section').forEach((element) => {
         element.style.display = 'none'
     })
