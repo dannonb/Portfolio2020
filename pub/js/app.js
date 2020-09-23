@@ -29,7 +29,7 @@ const startmsg = () => {
         setTimeout(() => {
             msg2 += letter
             starttext.textContent = msg2
-        }, i * 50)
+        }, i * 25)
     })
     setTimeout(() => {
         aboutbtn.style.transition = 'all 1s ease'
