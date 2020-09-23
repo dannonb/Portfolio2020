@@ -174,7 +174,7 @@ footer {
 #main {
     width: 80%;
     
-    margin: 5vh auto 40vh auto;
+    margin: 5vh auto 200px auto;
     
     background-image: url('./img/backgrounds/Large-Triangles.svg');
     display: none;
@@ -311,14 +311,6 @@ footer {
    #main {
     margin-bottom: 1000px;
     
-   }
-
-   #about-me {
-       margin-bottom: 1000px;
-   }
-
-   #projects {
-       margin-bottom: 1000px;
    }
 
    footer {
