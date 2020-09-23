@@ -306,6 +306,10 @@ footer {
    #main {
     margin-bottom: 60vh;
    }
+
+   footer {
+       margin-top: 150px;
+   }
    
 }
 
