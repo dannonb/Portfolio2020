@@ -333,6 +333,14 @@ footer {
     body {
         font-size: small;
     }
+
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: row;
+    }
 }
 
 
