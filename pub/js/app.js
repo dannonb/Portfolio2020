@@ -35,17 +35,17 @@ const startmsg = () => {
         aboutbtn.style.transition = 'all 1s ease'
         aboutbtn.style.opacity = '1'
         
-    }, 7000)
+    }, 5000)
     setTimeout(() => {
         projectbtn.style.transition = 'all 1s ease'
         projectbtn.style.opacity = '1'
         
-    }, 7500)
+    }, 5500)
     setTimeout(() => {
         certsbtn.style.transition = 'all 1s ease'
         certsbtn.style.opacity = '1'
         
-    }, 8000)
+    }, 6000)
 
 
 }
