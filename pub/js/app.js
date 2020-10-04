@@ -8,7 +8,7 @@ const footdiv = document.querySelector('#tr-footer')
 // getting start div and setting up welcome message
 const start = document.querySelector('#start')
 const starttext = document.querySelector('#msg')
-const msg = "Hello, welcome to my portfolio. Please click on a link or a button below to find out more information. You can also visit me on social media. Links to my socials can be found in the footer. Thanks!"
+const msg = "Hello, welcome to my portfolio. Please click on a link above or a button below to find out more information. You can also visit me on social media. Links to my socials can be found at the bottom of the page. Thanks!"
 
 
 // grabbing buttons
