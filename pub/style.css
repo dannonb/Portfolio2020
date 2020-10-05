@@ -339,10 +339,11 @@ footer {
     nav {
         flex-direction: column;
         flex-grow: 0;
+        animation: none;
     }
 
     nav a:hover {
-        transform: translateX(10px);
+        
         animation: none;
     }
 
