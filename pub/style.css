@@ -113,6 +113,15 @@ footer {
     transform: scale(1.6) rotate(360deg);
 }
 
+#copyright {
+    display: flex;
+    flex-direction: row;
+}
+
+#pic-cred {
+    font-size: 10px;
+}
+
 #logo {
     stroke-dasharray: 631px;
     stroke-dashoffset: 631px;

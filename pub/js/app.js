@@ -16,7 +16,18 @@ const aboutbtn = document.querySelector('#aboutbtn')
 const projectbtn = document.querySelector('#projectbtn')
 const certsbtn = document.querySelector('#certsbtn')
 
+// getting anchor tags and adding event listener to them
+document.querySelector('#about-me-anchor').addEventListener('click', () => {
+    displayAbout()
+})
 
+document.querySelector('#certs-anchor').addEventListener('click', () => {
+    displayCerts()
+})
+
+document.querySelector('#projects-anchor').addEventListener('click', () => {
+    displayProjects()
+})
 
 
 /*turning start msg into array of individual characters, then iterating 
