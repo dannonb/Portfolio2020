@@ -342,6 +342,14 @@ footer {
     }
 
     nav a:hover {
+        animation: none;
+    }
+
+    nav a:active {
+        animation: glow 4s ease-in-out infinite alternate;
+    }
+
+    nav a:hover {
         transform: translateX(10px)
     }
 
