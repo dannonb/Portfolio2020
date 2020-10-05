@@ -17,15 +17,19 @@ const projectbtn = document.querySelector('#projectbtn')
 const certsbtn = document.querySelector('#certsbtn')
 
 // getting anchor tags and adding event listener to them
-document.querySelector('#about-me-anchor').addEventListener('click', () => {
+document.querySelector('#about-me-anchor').addEventListener('click', (e) => {
+    e.preventDefault()
     displayAbout()
 })
 
-document.querySelector('#certs-anchor').addEventListener('click', () => {
+document.querySelector('#certs-anchor').addEventListener('click', (e) => {
+    
+    e.preventDefault
     displayCerts()
 })
 
-document.querySelector('#projects-anchor').addEventListener('click', () => {
+document.querySelector('#projects-anchor').addEventListener('click', (e) => {
+    e.preventDefault
     displayProjects()
 })
 
