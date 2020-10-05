@@ -24,12 +24,12 @@ document.querySelector('#about-me-anchor').addEventListener('click', (e) => {
 
 document.querySelector('#certs-anchor').addEventListener('click', (e) => {
     
-    e.preventDefault
+    e.preventDefault()
     displayCerts()
 })
 
 document.querySelector('#projects-anchor').addEventListener('click', (e) => {
-    e.preventDefault
+    e.preventDefault()
     displayProjects()
 })
 
