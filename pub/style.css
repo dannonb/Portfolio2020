@@ -56,18 +56,9 @@ nav a{
 
 nav a:hover {
     transform: scale(1.2) translateY(5px);
-    animation: glow 2s ease-in-out infinite alternate;
 }
 
-@keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ADD8E6
-    }
 
-    to {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ADD8E6
-    }
-}
 
 
 @keyframes nav {
@@ -172,10 +163,20 @@ footer {
     
 }
 
+#head h1:hover {
+    animation: glow 2s ease-in-out infinite alternate;
+}
 
 
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ADD8E6
+    }
 
-
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ADD8E6
+    }
+}
 
 
 #msg {
