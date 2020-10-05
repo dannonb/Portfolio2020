@@ -56,7 +56,7 @@ nav a{
 
 nav a:hover {
     transform: scale(1.2) translateY(5px);
-    animation: glow 1s ease-in-out infinite alternate;
+    
 }
 
 @keyframes glow {
@@ -400,6 +400,7 @@ footer {
     #msg {
         width: 50%;
     }
+    
 }
 
 
