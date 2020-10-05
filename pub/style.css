@@ -340,10 +340,11 @@ footer {
         flex-direction: column;
         flex-grow: 0;
         animation: none;
+        transition: none;
     }
 
     nav a:hover {
-        
+        transition: none;
         animation: none;
     }
 
