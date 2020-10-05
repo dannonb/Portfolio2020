@@ -168,15 +168,7 @@ footer {
 }
 
 
-@keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ADD8E6
-    }
 
-    to {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ADD8E6
-    }
-}
 
 
 #msg {
@@ -320,8 +312,21 @@ footer {
 }
 
 #dev-cert {
-    color: green;
+    color: #90ee90;
     text-decoration: none;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px#90ee90, 0 0 20px#90ee90, 0 0 30px #ADD8E6
+    }
+
+    to {
+        text-shadow: 0 0 10px#90ee90, 0 0 20px#90ee90, 0 0 30px #ADD8E6
+    }
 }
 
 #tr-footer {
