@@ -307,8 +307,18 @@ footer {
     max-width: 80%;
     max-height: 200px;
     margin: 10px 0;
-    border: 2px solid purple;
+    animation: box 2s ease-in-out infinite alternate;
 
+}
+
+@keyframes box {
+    from {
+        box-shadow: 0 0 10px lightblue, 0 0 20px lightblue, 0 0 30px #ADD8E6
+    }
+
+    to {
+        box-shadow: 0 0 10px lightblue, 0 0 20px lightblue, 0 0 30px #ADD8E6
+    }
 }
 
 #dev-cert {
