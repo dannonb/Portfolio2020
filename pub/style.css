@@ -278,6 +278,16 @@ footer {
     border: 2px solid black;
 }
 
+#chat-app {
+    background-image: url('./img/project-icons/favicon.png');
+    background-color: white;
+    background-size: contain;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
 .project h3 {
     margin: 20px;
 }
