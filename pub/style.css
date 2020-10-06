@@ -365,7 +365,7 @@ footer {
    }
 
    body { 
-       line-height: normal;
+       line-height: 1.5em;
    }
 
    h2 {
