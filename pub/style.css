@@ -306,6 +306,19 @@ footer {
     margin: 0 auto;
 }
 
+#shooter {
+    background-image: url('./img/project-icons/unreal-engine-u-logo.png');
+    background-color: white;
+    background-size: contain;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 0 auto;*.zip
+}
+
+
+
 .project h3 {
     margin: 10px;
 }
